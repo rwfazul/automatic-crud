@@ -4,5 +4,4 @@ Esse programa le os metadados de uma base de dados no postgres e gera os DAOs co
 
 # USO
 
-Adicionar o driver conector do banco (pasta lib) na buildpath do projeto.
-
+Adicionar o driver conector do banco (pasta lib) na buildpath do projeto ou utilizar o .jar.
