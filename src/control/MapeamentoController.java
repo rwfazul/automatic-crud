@@ -90,7 +90,6 @@ public class MapeamentoController {
         while (rs.next()) 
             database.getTabelas().add(new Tabela(rs.getString("TABLE_NAME")));
         
-        Collection<Thread> threadsTabelas = new ArrayList<>();
         Collection<Tabela> tabelas = database.getTabelas();
         for (Tabela tbl : tabelas) {
             Collection<ForeignKey> fks = mapearForeignKey(tbl);
