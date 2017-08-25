@@ -1,6 +1,6 @@
 # GERADOR DE CRUDS
 
-Esse programa lê os metadados de uma base de dados no postgres e gera os DAOs correspondentes às tabelas do esquema, bem como as classes que representam as entidades e classes de exemplo da utilização dos DAOs criados.
+Este programa lê os metadados de uma base de dados no PostgreSQL e gera os DAOs correspondentes às tabelas do esquema, bem como as classes que representam as entidades e classes de exemplo da utilização dos DAOs criados.
 
 ### Uso
 
